@@ -1,4 +1,4 @@
-@cht "UTF-8";
+@charset "UTF-8";
 
 *{
     margin: 0px;
@@ -18,18 +18,28 @@ body{
     background-color: grey;
 }
 #propt > header > div{
+    width: 105px;
+    display: inline-block;
     position: relative;
-    text-align: right;
+    left: 71%;
 }
 #propt{
     font-family: consolas,Arial, Helvetica, sans-serif;
-    color: rgb(0, 30, 128);
-    background-color: black;    
-    width: 600px;
-    height: 300px;
+    color: green;
+    background-color: black;  
+    min-width: 200px;  
+    min-height: 100px;
+    max-width: 600px;
+    
     margin: auto;
     margin-top: 20px;
 }
-#propt > p{
-margin: 5px;
+p, a{
+    padding-bottom: 100px;
+    margin: 5px;
+    text-decoration: none;
+    color: green;
+}
+a:hover{
+    color: darkgreen;
 }
