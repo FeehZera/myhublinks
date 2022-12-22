@@ -1,0 +1,36 @@
+@cht "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+body{
+    background: url(imagens/matrix.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+#propt > header{
+    background-color: grey;
+}
+#propt > header > div{
+    position: relative;
+    text-align: right;
+}
+#propt{
+    font-family: consolas,Arial, Helvetica, sans-serif;
+    color: green;
+    background-color: black;    
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+#propt > p{
+margin: 5px;
+}
