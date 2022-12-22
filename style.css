@@ -23,7 +23,7 @@ body{
 }
 #propt{
     font-family: consolas,Arial, Helvetica, sans-serif;
-    color: green;
+    color: rgb(0, 30, 128);
     background-color: black;    
     width: 600px;
     height: 300px;
