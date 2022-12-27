@@ -58,9 +58,30 @@ body{
         height: 90vh;
     }
     #content, #header{
-        width: 600px;
+        width: 500px;
     }
     #closer{
-        left: 65%;
+        left: 60%;
     }
+}
+@media screen and (min-width: 250px) and (max-width: 400px) {
+     body{
+        font-size: 0.6em;
+   }
+    #closer{
+        left: 40%;
+        bottom: 5px;
+   }
+   #closer > img{
+        width: 20px;
+        height: 20px;
+   }
+   #content{
+    padding: 15px 10px 20px 10px;
+   }
+   #header > img{
+        width: 30px;
+        height: 30px;
+        margin-left: -5px;
+   }
 }
