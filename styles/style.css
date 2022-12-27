@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    width: 100vw;
+}
+body{
+    background-color: black;
+    background-image: url(../imagens/matrix-p.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 90vh;
+}
+#content{
+    color: green;
+    background-color: black;
+    width: 400px;
+    margin: auto;
+    padding: 15px 10px 40px 10px;
+}
+#header{
+    padding: 0px 10px 0px 10px;
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: grey;
+}
+#closer{
+    display: inline;
+    position: relative;
+    left: 50%;
+    bottom: 5px;
+}
+#closer > img{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+#links a{
+    text-decoration: none;
+    color: green;
+}
+#links a:hover{
+    color: rgb(6, 180, 6);
+    text-decoration: underline;
+}
+@media screen and (min-width: 600px) {
+    body{
+        background-image: url(../imagens/matrix-g.jpg);
+        background-repeat: no-repeat;
+        background-color: black;
+        background-size: cover;
+        width: 100vw;
+        height: 90vh;
+    }
+    #content, #header{
+        width: 600px;
+    }
+    #closer{
+        left: 65%;
+    }
+}
