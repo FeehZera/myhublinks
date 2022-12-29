@@ -19,6 +19,7 @@ body{
     width: 100vw;
     height: 90vh;
     font-family: 'windowscmd';
+    
 }
 main{
     width: 300px;
@@ -27,6 +28,9 @@ main{
     background-color: black;
     margin-top: 30px;
     font-size: 0.8em;
+    border: 1px solid grey;
+    border-collapse: separate;
+    border
 }
 header{
     width: 300px;
