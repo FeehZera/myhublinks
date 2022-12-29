@@ -4,87 +4,63 @@
     margin: 0px;
     padding: 0px;
 }
-html, body{
-    width: 100vw;
+::-webkit-scrollbar{
+    width: 0px;
 }
 body{
     background-color: black;
     background-image: url(../imagens/matrix-p.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100vw;
     height: 90vh;
 }
 main{
+    width: 300px;
+    height: 250px;
     margin: auto;
-    width: 500px;
-}
-#content{
-    color: green;
     background-color: black;
-    width: 200px;
-    margin: auto;
-    padding: 15px 10px 40px 10px;
-}
-#header{
-    padding: 0px 10px 0px 10px;
-    width: 200px;
     margin-top: 30px;
+    font-size: 0.8em;
+}
+header{
+    width: 300px;
+    height: 41px;
     background-color: grey;
 }
-#closer{
-    display: inline-block;
+#propt, #remove, #square, #close{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
 }
-#closer > img{
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-    }
-#links a{
-    text-decoration: none;
+#propt{
+    padding: 0px 0px 0px 5px;
+    margin-left: 0px;
+}
+#remove, #square, #close{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    bottom: 20px;
+    left: 135px;
+}
+#text{
     color: green;
+    padding: 10px;
 }
-#links a:hover{
-    color: rgb(6, 180, 6);
-    text-decoration: underline;
+#links > nav > a > p{
+    color: green;
+    text-decoration: none;
+    padding-left: 10px;    
 }
-@media screen and (min-width: 500px) {
-    body{
-        background-image: url(../imagens/matrix-g.jpg);
-        background-repeat: no-repeat;
-        background-color: black;
-        background-size: cover;
-        width: 100vw;
-        height: 90vh;
-    }
-    #content, #header{
-       width: 500px;
-    }
-    #closer{
-        left: 60%;
-    }
+a{
+    text-decoration: none;
 }
-@media screen and (min-width: 250px) and (max-width: 499px) {
-    body{
-        font-size: 0.8em;
-   }
-    #closer{
-        right: auto;
-        bottom: 5px;
-   }
-    #closer > img{
-        width: 20px;
-        height: 20px;
-   }
-    #content{
-    padding: 15px 10px 20px 10px;
-   }
-    #header > img{
-        width: 30px;
-        height: 30px;
-        margin-left: -5px;
-   }
-   #content, #header{
-    width: 280px;
+#links > nav > a > p:hover{
+    color: white;
 }
+#atext{
+    color: green;
+    padding: 0px 0px 0px 10px;
 }
