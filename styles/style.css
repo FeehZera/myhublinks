@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family: 'windowscmd';
+    src: url('../fontes-cmd/retrogaming.ttf') format('truetype');
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -15,10 +18,11 @@ body{
     background-position: center top;
     width: 100vw;
     height: 90vh;
+    font-family: 'windowscmd';
 }
 main{
     width: 300px;
-    height: 250px;
+    height: 350px;
     margin: auto;
     background-color: black;
     margin-top: 30px;
@@ -43,7 +47,7 @@ header{
     height: 15px;
     position: relative;
     bottom: 20px;
-    left: 135px;
+    left: 130px;
 }
 #text{
     color: green;
@@ -63,4 +67,64 @@ a{
 #atext{
     color: green;
     padding: 0px 0px 0px 10px;
+}
+@media screen and (min-width: 600px) {
+    body{
+        background-color: black;
+        background-image: url(../imagens/matrix-g.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+        width: 100vw;
+        height: 90vh;
+        font-family: 'windowscmd';
+    }
+    main{
+        width: 600px;
+        height: 420px;
+        margin: auto;
+        background-color: black;
+        margin-top: 30px;
+        font-size: 1.1em;
+    }
+    header{
+        width: 600px;
+        height: 41px;
+        background-color: grey;
+    }
+    #propt, #remove, #square, #close{
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+    }
+    #propt{
+        padding: 0px 0px 0px 5px;
+        margin-left: 0px;
+    }
+    #remove, #square, #close{
+        width: 15px;
+        height: 15px;
+        position: relative;
+        bottom: 20px;
+        left: 420px;
+    }
+    #text{
+        color: green;
+        padding: 10px;
+    }
+    #links > nav > a > p{
+        color: green;
+        text-decoration: none;
+        padding-left: 10px;    
+    }
+    a{
+        text-decoration: none;
+    }
+    #links > nav > a > p:hover{
+        color: white;
+    }
+    #atext{
+        color: green;
+        padding: 0px 0px 0px 10px;
+    }
 }
