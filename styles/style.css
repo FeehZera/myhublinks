@@ -19,18 +19,15 @@ body{
     width: 100vw;
     height: 90vh;
     font-family: 'windowscmd';
-    
 }
 main{
     width: 300px;
-    height: 320px;
+    height: 300px;
     margin: auto;
     background-color: black;
     margin-top: 30px;
     font-size: 0.8em;
-    border: 1px solid grey;
-    border-collapse: separate;
-    border
+    border: 2px solid grey;
 }
 header{
     width: 300px;
@@ -85,11 +82,12 @@ a{
     }
     main{
         width: 600px;
-        height: 400px;
+        height: 320px;
         margin: auto;
         background-color: black;
         margin-top: 30px;
         font-size: 1.1em;
+        border: 2px solid grey;
     }
     header{
         width: 600px;
